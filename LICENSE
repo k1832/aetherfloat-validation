@@ -1,0 +1,98 @@
+AETHERFLOAT ACADEMIC EVALUATION LICENSE
+
+Copyright (c) 2026 Keita Morisaki. All rights reserved.
+
+Patent Notice
+--------------
+The algorithms, methods, data formats, microarchitectures, and architectural
+designs embodied in this software are the subject of one or more pending patent
+applications, including but not limited to:
+
+  - U.S. Provisional Patent Application No. 63/987,398
+    "SYSTEMS AND METHODS FOR BLOCK-SCALE-FREE HIGH-RADIX FLOATING-POINT
+    PROCESSING WITH EXPLICIT MANTISSA AND NATIVE LEXICOGRAPHICAL
+    COMPARABILITY" (filed February 20, 2026)
+
+  - Subsequent continuation, divisional, supplemental, and international
+    filings claiming priority thereto.
+
+Grant of Rights
+----------------
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of this software and associated documentation files (the
+"Software"), to use, copy, and modify the Software solely for the following
+purposes:
+
+  1. Academic research and evaluation;
+  2. Peer review and reproducibility verification of published results;
+  3. Non-commercial educational instruction; and
+  4. Personal, non-commercial experimentation.
+
+The above grant expressly includes the right to run the Software, inspect its
+outputs, and publish academic findings derived from its use, provided that such
+publications include appropriate citation of the associated paper:
+
+  Morisaki, K. (2026). "The AetherFloat Family: Block-Scale-Free Quad-Radix
+  Floating-Point Architectures for AI Accelerators."
+
+Restrictions
+-------------
+The following activities are NOT permitted under this license without a
+separate, written commercial license agreement from the copyright holder:
+
+  1. Commercial deployment — Incorporating the Software, or any portion
+     thereof, into any product, service, or system that is sold, licensed,
+     leased, or otherwise commercially distributed;
+
+  2. Hardware synthesis integration — Using the Verilog, RTL descriptions,
+     or synthesis scripts contained herein to produce, tape out, or program
+     any physical or virtual hardware (including but not limited to ASICs,
+     FPGAs, and silicon IP cores) for any purpose other than academic
+     evaluation;
+
+  3. Proprietary architecture incorporation — Integrating the floating-point
+     encoding, MAC datapath designs, Lexicographic One's Complement mapping,
+     Quad-Radix scaling methodology, Explicit Mantissa datapath,
+     Precision-Upcasting emulation method, Asymmetric QAT datapath, or
+     vector-shared stochastic rounding topology into proprietary hardware or
+     software architectures;
+
+  4. Sublicensing or redistribution — Redistributing the Software, in whole
+     or in part, under any other license terms, or sublicensing rights
+     granted hereunder to third parties; and
+
+  5. Training of machine learning models for commercial purposes — Using the
+     Software or its outputs (including quantized weights, training
+     checkpoints, or calibration tables) to produce models intended for
+     commercial deployment.
+
+Redistribution of unmodified or modified copies of the Software is permitted
+only if:
+
+  (a) This license file is included in its entirety;
+  (b) The patent notice above is preserved;
+  (c) Modified files state prominently that they were changed; and
+  (d) The redistribution is exclusively for a permitted purpose listed under
+      "Grant of Rights."
+
+Commercial Licensing
+---------------------
+For commercial deployment, hardware integration, or any use not expressly
+permitted above, please contact:
+
+  Keita Morisaki
+  kmta1236@gmail.com
+
+Disclaimer of Warranty
+-----------------------
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER OR PATENT APPLICANT BE LIABLE FOR ANY CLAIM, DAMAGES, OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+Nothing in this license shall be construed as a grant, by implication, estoppel,
+or otherwise, of any license under any patent claim covering the Software,
+except for the limited academic evaluation rights expressly stated above.

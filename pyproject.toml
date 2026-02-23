@@ -1,0 +1,17 @@
+[project]
+name = "aetherfloat"
+version = "0.1.0"
+description = "Validation source code for 'The AetherFloat Family: Block-Scale-Free Quad-Radix Floating-Point Architectures for AI Accelerators'"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.12.0",
+    "datasets>=4.5.0",
+    "huggingface-hub>=1.4.1",
+    "lm-eval>=0.4.11",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "transformers>=5.1.0",
+]
