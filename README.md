@@ -1,5 +1,9 @@
 # AetherFloat — Validation Source Code
 
+[![arXiv](https://img.shields.io/badge/arXiv-TODO-b31b1b.svg)](https://arxiv.org/abs/TODO)
+<!-- TODO: Add screenshot(s) of key result(s) -->
+<!-- ![AetherFloat Key Results](path_to_your_screenshot.png) -->
+
 ## ⚠️ License & IP Notice
 This repository is released under a custom **Academic Evaluation License** to facilitate peer review and reproducibility. Commercial deployment, hardware synthesis integration, or utilization in proprietary architectures requires a separate Commercial IP license. See the LICENSE file for details. Algorithms and architectures described herein are patent pending (U.S. App. No. 63/987,398 and supplemental filings).
 
@@ -93,7 +97,7 @@ g++ -O2 -o aether_core src/aether_core.cpp
 ## File Overview
 
 | File | Paper Reference | Description |
-|------|----------------|-------------|
+| --- | --- | --- |
 | `src/aether_sim.py` | — | Core quantization library (AF8/AF16, FP8 baseline, PTQ/QAT patching) |
 | `src/aether_core.cpp` | Section IV-A | Lexicographic sort validation (1M random floats) |
 | `src/wobble_plot.py` | Figure 1 | SQNR wobble comparison: bfloat16 vs AetherFloat-16 |
@@ -105,7 +109,23 @@ g++ -O2 -o aether_core src/aether_core.cpp
 
 ## Requirements
 
-- **Python** >= 3.11, [uv](https://docs.astral.sh/uv/)
-- **Multi-GPU** setup for training/eval scripts (Qwen2.5-7B)
-- **Docker** for hardware synthesis (Yosys + OpenSTA are built inside the container)
-- **C++ compiler** (g++ or clang++) for `aether_core.cpp`
+* **Python** >= 3.11, [uv](https://docs.astral.sh/uv/)
+* **Multi-GPU** setup for training/eval scripts (Qwen2.5-7B)
+* **Docker** for hardware synthesis (Yosys + OpenSTA are built inside the container)
+* **C++ compiler** (g++ or clang++) for `aether_core.cpp`
+
+## Citation
+
+If you find this code or our paper useful in your research, please consider citing:
+
+<!-- TODO: Update after the arXiv paper is published -->
+```bibtex
+@misc{morisaki2026aetherfloat,
+  title={The AetherFloat Family: Block-Scale-Free Quad-Radix Floating-Point Architectures for AI Accelerators},
+  author={Keita Morisaki},
+  year={2026},
+  eprint={...},
+  archivePrefix={arXiv},
+  primaryClass={cs.AR}
+}
+```

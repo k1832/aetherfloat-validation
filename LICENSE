@@ -32,6 +32,7 @@ The above grant expressly includes the right to run the Software, inspect its
 outputs, and publish academic findings derived from its use, provided that such
 publications include appropriate citation of the associated paper:
 
+  # TODO: Add arXiv URL after publishing the paper
   Morisaki, K. (2026). "The AetherFloat Family: Block-Scale-Free Quad-Radix
   Floating-Point Architectures for AI Accelerators."
 
